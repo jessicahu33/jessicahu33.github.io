@@ -1,0 +1,312 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #BFD4E8;
+  padding-bottom: 100px;
+}
+
+#home {
+background-image: url("../imgs/home.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.home {
+  position: relative;
+}
+
+.next {
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+margin-top: 325px;
+margin-right: 50px;
+}
+
+#pink {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+#carousel-image-row {
+  margin-left: 50px;
+}
+
+#description_container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 850px;
+
+}
+
+
+
+
+
+#kindle_circle {
+z-index: 2;
+margin-left: 145px;
+margin-top: 85px;
+position: absolute;
+}
+
+#apoc_circle {
+  z-index: 2;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 310px;
+}
+
+#dt_circle {
+  z-index: 2;
+  position: absolute;
+  margin-left: 145px;
+  margin-top: 225px;
+}
+
+#yarang_circle {
+  z-index: 2;
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 310px;
+}
+
+#juicebox_circle {
+  z-index: 2;
+  position: absolute;
+  margin-left: 145px;
+  margin-top:365px;
+}
+
+#eta_circle {
+  z-index: 2;
+  position: absolute;
+  margin-top: 365px;
+  margin-left: 310px;
+}
+
+#eggs_circle {
+  z-index: 2;
+  position: absolute;
+  margin-left: 145px;
+  margin-top: 505px;
+}
+
+#irrelevant_circle {
+  z-index: 2;
+  position: absolute;
+  margin-top: 505px;
+  margin-left: 310px;
+}
+
+#relevant_circle {
+  z-index: 2;
+  position: absolute;
+  margin-left: 145px;
+margin-top: 645px;
+}
+
+#tato_circle {
+  z-index: 2;
+  position: absolute;
+  margin-top: 645px;
+  margin-left: 310px;
+}
+
+#kindle_emoji {
+position: absolute;
+z-index: 3;
+margin-left: 164px;
+margin-top: 100px;
+
+}
+
+#kindle_emoji:hover, #apoc_emoji:hover, #dt_emoji:hover, #yarang_emoji:hover, #juicebox_emoji:hover, #eta_emoji:hover, #eggs_emoji:hover, #irrelevant_emoji:hover, #relevant_emoji:hover, #tato_emoji:hover {
+  transform: scale(1.1);
+}
+
+#apoc_emoji {
+position: absolute;
+z-index: 3;
+margin-left: 320px;
+margin-top: 99px;
+}
+
+#dt_emoji {
+position: absolute;
+z-index: 3;
+margin-left: 165px;
+margin-top: 243px;
+}
+
+#yarang_emoji {
+position: absolute;
+z-index: 3;
+margin-left: 334px;
+margin-top: 244px;
+}
+
+#juicebox_emoji {
+position: absolute;
+z-index: 3;
+margin-left: 166px;
+margin-top: 388px;
+}
+
+#eta_emoji {
+position: absolute;
+z-index: 3;
+margin-left: 330px;
+margin-top: 388px;
+}
+
+#eggs_emoji {
+  position: absolute;
+  z-index: 3;
+  margin-left: 163px;
+  margin-top: 525px;
+}
+
+#irrelevant_emoji {
+  position: absolute;
+  z-index: 3;
+  margin-left: 330px;
+  margin-top: 525px;
+}
+
+#relevant_emoji {
+  position: absolute;
+  z-index: 3;
+  margin-left: 167px;
+  margin-top:665px;
+}
+
+#tato_emoji {
+  position: absolute;
+  z-index: 3;
+  margin-left: 326px;
+  margin-top: 665px;
+}
+
+#logo {
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-left: 1300px;
+margin-top: 1000px;
+
+}
+
+#pickteam {
+  position: absolute;
+  margin-top: 410px;
+  margin-left: 750px;
+}
+
+#arrow {
+  position: absolute;
+  margin-left: 575px;
+  margin-top: 140px;
+}
+
+@keyframes next {
+50% {
+  transform: translateX(10px);
+}
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes arrow {
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: scale(0deg);
+  }
+}
+
+.next {
+  animation: next 1.5s ease-out infinite;
+}
+
+#arrow {
+  animation: arrow 1.5s ease-in-out infinite;
+}
+
+#description_container .video {
+  display: none;
+  position: absolute;
+}
+
+#kindle_d {
+  display: none;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 475px;
+}
+
+#apoc_d {
+  display: none;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 450px;
+}
+
+
+
+#dt_d, #yarang_d, #juicebox_d, #eta_d, #eggs_d, #irrelevant_d, #relevant_d {
+  display: none;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 475px;
+}
+ #tato_d {
+   display: none;
+   position: absolute;
+   margin-top: 150px;
+   margin-left: 475px;
+ }
+
+#kindle_v, #apoc_v {
+  display: none;
+  position: absolute;
+  margin-left: 475px;
+  margin-top: 550px;
+
+}
+#dt_v, #yarang_v, #juicebox_v, #eta_v, #eggs_v, #irrelevant_v, #relevant_v {
+display: none;
+position: absolute;
+margin-left: 195px;
+margin-top: 400px;
+}
+
+
+#tato_v {
+  display: none;
+  position: absolute;
+  margin-left: 195px;
+  margin-top: 450px;
+}
